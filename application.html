@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Space Jam</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <a href="overview.html" onclick="w3_close()" class="w3-bar-item w3-button">Overview</a>
+    <a href="biographies.html" onclick="w3_close()" class="w3-bar-item w3-button">Biographies</a>
+    <a href="job specifications.html" onclick="w3_close()" class="w3-bar-item w3-button">Job Specifications</a>
+    <a href="application.html" onclick="w3_close()" class="w3-bar-item w3-button">Application</a>
+    <a href="development courses.html" onclick="w3_close()" class="w3-bar-item w3-button">Development Courses</a>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-16 w3-center">
+  <div class="w3-full">
+    <img src="Picture4.jpg" alt="Movie Cover" style="width:50%">
+  </div>
+  
+</div>
+
+<h3>Application Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="lname">Phone Number</label>
+    <input type="text" id="pnumber" name="phonenumber" placeholder="Your Phone Number..">
+
+    <label for="jobposition">Job Position</label>
+    <select id="jobposition" name="jobposition">
+      <option value="directors and producers">Directors and Producers</option>
+      <option value="animators">Animators</option>
+      <option value="visual effects artists">Visual Effects Artists</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<p>This form will allow us to get some basic information about you, that will be helpful for us.</p>
+
+
+</body>
+</html>
